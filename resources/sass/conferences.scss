@@ -1,0 +1,90 @@
+
+.conferences-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .conference-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .conference-title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .conference-edit-link {
+    color: #3490dc;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .conference-edit-link:hover {
+    text-decoration: underline;
+  }
+  
+  .create-conference-link {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #28a745;
+    text-decoration: none;
+  }
+  
+  .create-conference-link:hover {
+    text-decoration: underline;
+  }
+
+
+
+  // Add/Edit Conference Form Styling ////////////////////////////////////
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="date"],
+  input[type="time"] {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+  }
+
+  button {
+      padding: 10px;
+      background-color: #3490dc;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: all 0.5s;
+  }
+
+  button:hover {
+      background-color: #2779bd;
+  }
+
+  .return-home-btn {
+    margin: 20px 0;
+    background-color: #c2c8cb;
+    color: #000;
+  }
+
+  .return-home-btn:hover {
+    background-color: #979797;
+  }
+  
+
+
+
+

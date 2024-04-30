@@ -1,0 +1,19 @@
+@import "flatpickr";
+
+@import 'conferences';
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.login-btn {
+    background-color: #84d08e;
+    padding: 10px 30px;
+}
+
+.login-btn:hover {
+    background-color: #6a9e71;
+}
